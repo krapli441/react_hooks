@@ -17,9 +17,9 @@ export default function ModalExample() {
       {isOpen && (
         <div className="modal">
           <div className="modal-content">
-            <span className="닫기" onClick={closeModal}>
-              &times;
-            </span>
+            <button className="닫기" onClick={closeModal}>
+              닫기
+            </button>
             <h2>useState로 모달 띄우기</h2>
             <p>모달 창을 띄웠습니다.</p>
           </div>
