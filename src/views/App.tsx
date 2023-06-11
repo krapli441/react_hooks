@@ -3,6 +3,8 @@ import State from "./UseState";
 import Modal from "./UseStateModal";
 import { ParentComponent, ChildComponent } from "./useContext";
 import Effect from "./useEffect";
+import LifeCycleClass from "./lifeCycleClass";
+import LifeCycleFunction from "./lifeCycleFunction";
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
       <Effect />
       <ParentComponent />
       <ChildComponent />
+      <LifeCycleClass />
+      <LifeCycleFunction />
     </>
   );
 }
